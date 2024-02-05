@@ -9,8 +9,8 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 # Load CSV files
-train_df = pd.read_csv('tps/emnist-letters-train.csv')
-test_df = pd.read_csv("tps/emnist-letters-test.csv")
+train_df = pd.read_csv('emnist-letters-train.csv')
+test_df = pd.read_csv("emnist-letters-test.csv")
 
 # Function to preprocess images
 def preprocess_images(df):
